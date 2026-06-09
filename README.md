@@ -28,7 +28,7 @@ Este repositorio contiene:
 ### 1) Backend
 
 ```bash
-cd /home/runner/work/copilot-agent-training/copilot-agent-training/JHaeberliBaufest/copilot-agent-training/backend
+cd backend
 poetry install
 poetry run uvicorn main:app --reload
 ```
@@ -38,7 +38,7 @@ Backend disponible en: `http://localhost:8000`
 ### 2) Frontend
 
 ```bash
-cd /home/runner/work/copilot-agent-training/copilot-agent-training/JHaeberliBaufest/copilot-agent-training/frontend
+cd frontend
 npm install
 npm run dev
 ```
